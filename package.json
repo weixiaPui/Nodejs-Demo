@@ -1,0 +1,19 @@
+{
+	"name": "brownbag-demo",
+	"description": "simple nodejs app",
+	"version": "1.0.0",
+	"license": "ISC",
+	"author": "wei xia pui",
+	"main": "src/app.js",
+	"scripts": {
+		"start": "nodemon -e .js"
+	},
+	"dependencies": {
+		"express": "4.17.1",
+		"winston": "3.2.1",
+		"ejs": "^3.0.1"
+	},
+	"devDependencies": {
+		"nodemon": "2.0.4"
+	}
+}
