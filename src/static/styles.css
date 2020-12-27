@@ -1,0 +1,11 @@
+body {
+    padding-top: 0rem;
+    text-align: center;
+    background-image: url("Suspension Bridge.jpg");
+    background-size: cover;
+  }
+  
+  .myclass{
+      padding-top: 2rem;
+  }
+  

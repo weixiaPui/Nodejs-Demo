@@ -1,6 +1,6 @@
 const express = require('express');
-const logger = require('./middleware/logger');
 const path = require('path');
+const logger = require('./middleware/logger');
 
 const config = {...process.env};
 const app = express();
@@ -12,6 +12,6 @@ logger.info('Set up route');
 require('./routes/index')(app);
 
 // Add static file serving from public folder
-app.use(express.static(path.join(__dirname, 'styles')))
+app.use(express.static(path.join(__dirname, 'static')))
 
 app.listen(config.PORT || 3000, () => logger.info('Started application at port 3000'));
